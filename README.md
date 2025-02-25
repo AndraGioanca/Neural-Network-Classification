@@ -31,6 +31,29 @@ A variation of the Gradient Descent method that optimizes network weights using 
 ## Conclusion
 Both methods efficiently trained the neural network due to the small dataset size (150 instances). The dataset was split 80/20 for training and testing, and both approaches achieved perfect classification results based on the confusion matrix analysis.
 
+## Functions Used
+
+### **crossEntropyLoss.m**
+Computes the cross-entropy loss for classification tasks and returns the gradient for backpropagation.
+
+### **customActivation.m**
+Implements a custom activation function: f(z) = z * tanh(z), which helps introduce non-linearity to the model.
+
+### **feedforward.m**
+Performs forward propagation by computing the activations through the hidden and output layers.
+
+### **initializeNetwork.m**
+Initializes the weights and biases of the neural network using random values with small magnitudes.
+
+### **softmax.m**
+Applies the softmax function to convert the network's output into class probabilities.
+
+### **trainGD.m**
+Trains the neural network using Gradient Descent by iteratively updating weights and biases to minimize loss.
+
+### **trainSGD.m**
+Trains the neural network using Stochastic Gradient Descent, updating weights and biases based on a randomly selected subset of training data.
+
 ## Project Structure
 ```
 /NeuralNetwork-Classification
