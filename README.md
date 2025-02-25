@@ -45,17 +45,6 @@ Both methods efficiently trained the neural network due to the small dataset siz
 │── README.md                # Project documentation
 ```
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YourUsername/Neural-Network-Classification.git
-   ```
-2. Open MATLAB and navigate to the project directory.
-3. Run the training script using:
-   ```matlab
-   [W1, W2, b1, b2, lossHistory, gradHistory, timeHistory] = trainGD(X_train, y_train, W1, W2, b1, b2, epochs, learningRate);
-   ```
-
 ## Usage
 - Modify `initializeNetwork.m` to adjust network parameters.
 - Change hyperparameters in `trainGD.m` or `trainSGD.m`.
